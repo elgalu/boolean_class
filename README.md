@@ -1,6 +1,8 @@
 # BooleanClass
 
 [![Build Status](https://travis-ci.org/elgalu/boolean_class.png)](https://travis-ci.org/elgalu/boolean_class)
+[![Dependency Status](https://gemnasium.com/elgalu/boolean_class.png)](https://gemnasium.com/elgalu/boolean_class)
+[![Code Climate](https://codeclimate.com/github/elgalu/boolean_class.png)](https://codeclimate.com/github/elgalu/boolean_class)
 
 Performs type conversion from anything to true:TrueClass / false:FalseClass
 
