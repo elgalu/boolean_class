@@ -36,5 +36,6 @@ DESC
   gem.add_development_dependency "rspec", "~> 2.12"
   gem.add_development_dependency "redcarpet", "~> 2.2"
   gem.add_development_dependency "yard", "~> 0.8"
+  gem.add_development_dependency "simplecov", "~> 0.7"
 
 end
