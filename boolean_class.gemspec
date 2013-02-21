@@ -10,12 +10,8 @@ Gem::Specification.new do |gem|
   gem.version       = BooleanClass::VERSION
   gem.summary       = %q{Performs type conversion from anything to true:TrueClass / false:FalseClass}
   gem.description   = <<-DESC
-Performs type conversion from anything to true:TrueClass / false:FalseClass
-
-Similar to boolean gem but:
-- without parse_bool()
-- without raising exceptions
-- without to_bool() to_b() methods
+Performs type conversion from anything to true:TrueClass / false:FalseClass.
+Similar to boolean gem but without parse_bool(), to_bool() and to_b() and without raising exceptions.
 DESC
 
   gem.required_ruby_version     = '>= 1.9.3'

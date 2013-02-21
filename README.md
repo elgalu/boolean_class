@@ -1,5 +1,7 @@
 # BooleanClass
 
+[![Build Status](https://travis-ci.org/elgalu/boolean_class.png)](https://travis-ci.org/elgalu/boolean_class)
+
 Performs type conversion from anything to true:TrueClass / false:FalseClass
 
 Similar to [boolean][] gem but:
