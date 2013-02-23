@@ -4,6 +4,8 @@
 [![Dependency Status](https://gemnasium.com/elgalu/boolean_class.png)](https://gemnasium.com/elgalu/boolean_class)
 [![Code Climate](https://codeclimate.com/github/elgalu/boolean_class.png)](https://codeclimate.com/github/elgalu/boolean_class)
 
+## Description
+
 Performs type conversion from anything to true:TrueClass / false:FalseClass
 
 Similar to [boolean][] gem but:
@@ -14,21 +16,11 @@ Similar to [boolean][] gem but:
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'boolean_class'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install boolean_class
+`$ gem install boolean_class` or add to your [Gemfile][] this line: `gem 'boolean_class'` then run [bundle install][]
 
 ## Usage
 
-Just `require 'boolean_class'` and then use it.
+Just `require 'boolean_class'` and then use it as:
 
 ### As a conversion method Boolean()
 
@@ -67,10 +59,27 @@ FalseClass < Boolean  #=> true
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Fork it.
+2. Make your feature addition or bug fix and create your feature branch.
+3. Add specs/tests for it. This is important so I don’t break it in a future version unintentionally.
+4. Commit, create a new Pull Request.
+5. Check that your pull request passes the [build][travis pull requests].
+
+## License
+
+Released under the MIT License. See the [LICENSE][] file for further details.
+
+## Links
+
+[RubyGems][] | [Documentation][] | [Source][] | [Bugtracker][]
+
 
 [boolean]: http://rubygems.org/gems/boolean
+[bundle install]: http://gembundler.com/man/bundle-install.1.html
+[Gemfile]: http://gembundler.com/man/gemfile.5.html
+[travis pull requests]: https://travis-ci.org/elgalu/boolean_class/pull_requests
+[LICENSE]: LICENSE.txt
+[RubyGems]: https://rubygems.org/gems/boolean_class
+[Documentation]: http://rubydoc.info/gems/boolean_class
+[Source]: https://github.com/elgalu/boolean_class
+[Bugtracker]: https://github.com/elgalu/boolean_class/issues
