@@ -69,6 +69,7 @@ FalseClass < Boolean  #=> true
 
 1. Fork it.
 2. Make your feature addition or bug fix and create your feature branch.
+3. Update the [Change Log][].
 3. Add specs/tests for it. This is important so I don't break it in a future version unintentionally.
 4. Commit, create a new Pull Request.
 5. Check that your pull request passes the [build][travis pull requests].
@@ -86,6 +87,7 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [bundle install]: http://gembundler.com/man/bundle-install.1.html
 [Gemfile]: http://gembundler.com/man/gemfile.5.html
 [LICENSE]: LICENSE.md
+[Change Log]: CHANGELOG.md
 
 [RubyGems]: https://rubygems.org/gems/boolean_class
 [Documentation]: http://rubydoc.info/gems/boolean_class
