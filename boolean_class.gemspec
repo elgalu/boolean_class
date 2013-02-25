@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.description   = gem.summary
 
   gem.required_ruby_version     = '>= 1.9.3'
-  gem.required_rubygems_version = '>= 1.8.11'
+  gem.required_rubygems_version = '>= 1.8'
 
   gem.license       = 'MIT'
 
@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency "bundler", "~> 1.2"
-  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "rake", "~> 0.9"
   gem.add_development_dependency "rspec", "~> 2.13"
   gem.add_development_dependency "redcarpet", "~> 2.2"
   gem.add_development_dependency "yard", "~> 0.8"

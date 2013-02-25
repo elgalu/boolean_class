@@ -9,9 +9,8 @@
 ### Chores
 * Added this Change Log file (Leo Gallucci)
 * Added Code Climate badge and Dependency Status badge (Leo Gallucci)
-* README.md improvements (Leo Gallucci)
-* gemspec improvements (Leo Gallucci)
-* Fixed name on Gemfile, updated gemspec, update README
+* README.md, Gemfile, gemspec improvements (Leo Gallucci)
+* Confirmed support for ruby 2.0.0-p0, added more rubies to travis, added .ruby-version file (Leo Gallucci)
 
 ## [v0.0.2](https://github.com/elgalu/boolean_class/compare/v0.0.1...v0.0.2)
 
