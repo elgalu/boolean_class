@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Performs type conversion from anything to true:TrueClass / false:FalseClass}
   gem.description   = gem.summary
 
-  gem.required_ruby_version     = '>= 1.9.3'
+  gem.required_ruby_version     = '>= 1.9.2'
   gem.required_rubygems_version = '>= 1.8'
 
   gem.license       = 'MIT'
@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency "bundler", "~> 1.2"
+  gem.add_development_dependency "bundler", ">= 1.2"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec", "~> 2.13"
   gem.add_development_dependency "redcarpet", "~> 2.2"
