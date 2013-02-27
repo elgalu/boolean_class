@@ -1,6 +1,13 @@
-require 'boolean_class'
 require 'simplecov'
 require 'coveralls'
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
+SimpleCov.start
+
+require 'boolean_class'
 
 # Require this file using `require "spec_helper"` within each of your specs
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
@@ -13,8 +20,3 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
-if !ENV["TRAVIS"] && !ENV["COVERALLS_RUN_LOCALLY"]
-  SimpleCov.start
-else
-  Coveralls.wear!
-end
