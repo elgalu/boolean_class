@@ -8,6 +8,7 @@
 
 ### Chores
 * Added gem version badge at README and coveralls gem & badge. (Leo Gallucci)
+* Relaxed some gem dependency versions
 
 ## [v0.0.3](https://github.com/elgalu/boolean_class/compare/v0.0.2...v0.0.3)
 
