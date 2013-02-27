@@ -1,8 +1,10 @@
 # BooleanClass
 
+[![Gem Version][GV img]][Gem Version]
 [![Build Status][BS img]][Build Status]
 [![Dependency Status][DS img]][Dependency Status]
 [![Code Climate][CC img]][Code Climate]
+[![Coverage Status][CS img]][Coverage Status]
 
 ## Description
 
@@ -93,10 +95,14 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [Documentation]: http://rubydoc.info/gems/boolean_class
 [Source]: https://github.com/elgalu/boolean_class
 [Bugtracker]: https://github.com/elgalu/boolean_class/issues
+[Gem Version]: https://rubygems.org/gems/boolean_class
+[Coverage Status]: https://coveralls.io/r/elgalu/boolean_class
 
 [BS img]: https://travis-ci.org/elgalu/boolean_class.png
 [DS img]: https://gemnasium.com/elgalu/boolean_class.png
 [CC img]: https://codeclimate.com/github/elgalu/boolean_class.png
+[GV img]: https://badge.fury.io/rb/boolean_class.png
+[CS img]: https://coveralls.io/repos/elgalu/boolean_class/badge.png?branch=master
 
 [Build Status]: https://travis-ci.org/elgalu/boolean_class
 [travis pull requests]: https://travis-ci.org/elgalu/boolean_class/pull_requests

@@ -1,4 +1,15 @@
-## [In git](https://github.com/elgalu/boolean_class/compare/v0.0.2...HEAD)
+## [In git](https://github.com/elgalu/boolean_class/compare/v0.0.3...HEAD)
+
+### New Features
+* n/a
+
+### Bugfixes
+* n/a
+
+### Chores
+* Added gem version badge at README and coveralls gem & badge. (Leo Gallucci)
+
+## [v0.0.3](https://github.com/elgalu/boolean_class/compare/v0.0.2...v0.0.3)
 
 ### New Features
 * n/a
