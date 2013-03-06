@@ -20,10 +20,10 @@ Gem::Specification.new do |gem|
   gem.email         = ["elgalu3@gmail.com"]
   gem.homepage      = "https://github.com/elgalu/boolean_class"
 
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.files         = `git ls-files`.split($/)
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.files         = `git ls-files`.split($/)
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
 
   gem.add_development_dependency "bundler", ">= 1.2"
   gem.add_development_dependency "rake"
