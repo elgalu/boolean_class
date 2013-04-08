@@ -86,8 +86,8 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 
 
 [boolean]: http://rubygems.org/gems/boolean
-[bundle install]: http://gembundler.com/man/bundle-install.1.html
-[Gemfile]: http://gembundler.com/man/gemfile.5.html
+[bundle install]: http://gembundler.com/v1.3/man/bundle-install.1.html
+[Gemfile]: http://gembundler.com/v1.3/gemfile.html
 [LICENSE]: LICENSE.md
 [Change Log]: CHANGELOG.md
 
