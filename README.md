@@ -13,6 +13,10 @@ Performs type conversion from anything to true:TrueClass / false:FalseClass
 ```ruby
 Boolean(0.0)         #=> true
 FalseClass < Boolean #=> true
+
+# Note you can always booleanize anything using a double ! operator
+# There is no need for an external gem to achieve that:
+!!(0.0)              #=> true
 ```
 
 ## Anti-Features
