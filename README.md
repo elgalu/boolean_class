@@ -5,6 +5,7 @@
 [![Dependency Status][DS img]][Dependency Status]
 [![Code Climate][CC img]][Code Climate]
 [![Coverage Status][CS img]][Coverage Status]
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8a65d211cebabff685253265dd3a2f0b "githalytics.com")](http://githalytics.com/elgalu/boolean_class)
 
 ## Description
 
