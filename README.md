@@ -7,6 +7,30 @@
 [![Coverage Status][CS img]][Coverage Status]
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8a65d211cebabff685253265dd3a2f0b "githalytics.com")](http://githalytics.com/elgalu/boolean_class)
 
+## Warning
+
+Looking for typecasting boolean values?
+
+Just use the "bang bang" technique, there is no need for an external gem to achieve that.
+
+```ruby
+!!(0.0) #=> true
+!!1     #=> true
+!!0     #=> true
+!!""    #=> true
+!!nil   #=> false
+!!false #=> false
+```
+
+Matz, the creator of Ruby, has a strong [opinion](https://www.ruby-forum.com/topic/4412411#1103364) against a Boolean class:
+
+> There's nothing true and false commonly share, thus no Boolean class.
+> Besides that, in Ruby, everything behave as Boolean value, as Xavier
+> mentioned in [ruby-talk:406208].
+>      matz.
+
+That said, this is just a proof-of-concept gem for some of my experiments.
+
 ## Description
 
 Performs type conversion from anything to true:TrueClass / false:FalseClass
@@ -14,10 +38,6 @@ Performs type conversion from anything to true:TrueClass / false:FalseClass
 ```ruby
 Boolean(0.0)         #=> true
 FalseClass < Boolean #=> true
-
-# Note you can always booleanize anything using a double ! operator
-# There is no need for an external gem to achieve that:
-!!(0.0)              #=> true
 ```
 
 ## Anti-Features
