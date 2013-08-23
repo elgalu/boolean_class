@@ -6,7 +6,7 @@ describe 'Inheritance' do
     false.is_a?(Boolean).should be_true
     0.is_a?(Boolean).should be_false
     nil.is_a?(Boolean).should be_false
-    (0==1).is_a?(Boolean).should be_true
+    (0 == 1).is_a?(Boolean).should be_true
   end
 
   it 'allows class type checking' do

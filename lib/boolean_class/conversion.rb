@@ -1,4 +1,5 @@
 module BooleanClass
+  # Type conversions from anything to true/false
   module Conversion
     # Performs type conversion from anything to true/false
     #

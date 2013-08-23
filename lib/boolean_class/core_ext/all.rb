@@ -1,13 +1,14 @@
 require 'boolean_class/boolean'
-require "boolean_class/conversion"
+require 'boolean_class/conversion'
 
 # Make Boolean() conversion method possible on any scope
 #
 # @see BooleanClass::Conversion
 class Object
   # Polite monkey patching:
-  #   Instead of defining Boolean() directly in Kernel i explicitly inlude a module
-  #   So anyone can track later on monkey patches to core modules
+  #   Instead of defining Boolean() directly in Kernel
+  #   i explicitly inlude a module so anyone can track
+  #   later on monkey patches to core modules
   include BooleanClass::Conversion
 end
 
